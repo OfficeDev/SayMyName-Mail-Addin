@@ -1,0 +1,12 @@
+<div id="spinner-background" ng-show="waiting"></div>
+<audio id="mp3audio" controls="" autoplay="" style="height: 35px; width: 100%;" ng-show="activeAudio">Your browser does not support the audio tag.</audio>
+<div class="ms-Table">
+  <div class="ms-Table-row">
+    <span class="ms-Table-cell">Name</span>
+    <span class="ms-Table-cell">Email</span>
+  </div>
+  <div class="ms-Table-row" ng-repeat="person in people" ng-click="listen($index)">
+    <span class="ms-Table-cell"><i class="ms-Icon ms-Icon--microphone" aria-hidden="true" />&nbsp;{{person.name}}</span>
+    <span class="ms-Table-cell">{{person.email}}</span>
+  </div>
+ </div>
