@@ -1,15 +1,21 @@
 ---
 page_type: sample
 products:
+- office
+- office-outlook
 - office-365
 languages:
 - javascript
+description: "This is a simple mail add-in that provides audio transcription of email/meeting recipient names to audio."
+urlFragment: say-my-name-sample
 extensions:
   contentType: samples
-  createdDate: 10/19/2015 8:32:16 AM
+  createdDate: "10/19/2015 8:32:16 AM"
 ---
+
 # SayMyName-Mail-Addin
-This is a simple mail add-in that provides audio transcription of email/meeting recipient names to audio...helps you learn to pronounce names of people you work with.
+
+This is a simple mail add-in that provides audio transcription of email/meeting recipient names to audio. Helps you learn to pronounce names of people you work with.
 
 To run the sample:
 
